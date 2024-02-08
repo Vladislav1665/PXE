@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"> -->
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Settings</title>
+</head>
+
+<body>
+    <main class="set_ip__settings">
+        <form>
+            <section class="settings">
+                <lable>Ip address router</lable>
+                <input class="ips" type="text" size="15" maxlength="15" value="192.168.0.1">
+                <!-- placeholder="000.000.000.000" title="Минимум 6 символов" pattern="\d\d\d.\d\d\d.\d\d\d.\d\d\d" -->
+            </section>
+
+            <section class="settings">
+                <label>Ip PXE-server</label>
+                <input class="ips" type="text" size="15" maxlength="15" value="192.168.0.200">
+            </section>
+
+            <section class="settings">
+                <label>Subnet mask</label>
+                <input class="ips" type="text" size="15" maxlength="15" value="255.255.255.0">
+            </section>
+
+            <section class="settings">
+                <label>Subnet</label>
+                <input class="ips" name="Subnet" type="text" size="15" maxlength="15" value="192.168.0.1">
+            </section>
+
+            <input type="submit" class="save" name="Subnet" value="Применить сохранение">
+        </form>
+        <a class="back" href="index.html">Назад</a>
+        <a class="images" href="install.html"> Файлы установки</a>
+        <footer>
+            <p>©2023 development by Vladislav Zinin </p>
+        </footer>
+    </main>
+    <script src="scripts/sctipt.js"></script>
+</body>
+
+</html>
